@@ -7,19 +7,22 @@ import android.widget.TextView;
 import java.util.Date;
 
 public class DaoUtil {
-private  static TextView mTextViews;
+    private static TextView mTextViews;
 
-    private DaoUtil(){};
 
-    private static DaoUtil daoUtil=new DaoUtil();
+    //我是李涛
+    private DaoUtil() {
+    }
 
-    public  static  void   instance(Context activity){
-        if(mTextViews==null){
+    ;
+
+    private static DaoUtil daoUtil = new DaoUtil();
+
+    public static void instance(Context activity) {
+        if (mTextViews == null) {
             mTextViews = new TextView(activity);
         }
     }
-
-
 
 
 }

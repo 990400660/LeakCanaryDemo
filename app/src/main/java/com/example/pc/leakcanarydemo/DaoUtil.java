@@ -11,6 +11,7 @@ public class DaoUtil {
 
 
     //我是李涛呀
+    //贾静茹你干啥呢
     private DaoUtil() {
     }
 //我是李涛他爹

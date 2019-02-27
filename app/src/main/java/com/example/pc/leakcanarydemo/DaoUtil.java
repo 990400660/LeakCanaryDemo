@@ -21,6 +21,13 @@ public class DaoUtil {
     public static void instance(Context activity) {
         if (mTextViews == null) {
             mTextViews = new TextView(activity);
+
+
+
+
+
+
+
         }
     }
 

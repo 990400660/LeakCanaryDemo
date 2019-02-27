@@ -14,8 +14,8 @@ public class DaoUtil {
     //贾静茹你干啥呢
     private DaoUtil() {
     }
-//我是李涛他爹
-    ;
+
+
 
     private static DaoUtil daoUtil = new DaoUtil();
 
